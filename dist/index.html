@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <title>Alba Project</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+            <!-- <ul class="navbar-nav">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul> -->
+            <div class="search-area">
+                <span class="search">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" name="" value="" placeholder="Search">
+            </div>
+        </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </header>
+
+    <section id="showcase">
+        <div>
+            <h1>Your business is in good hands</h1>
+            <p>Lorem ipsum dolor sit amet, sed do eiusmod.</p>
+        </div>
+    </section>
+    <section id="stat-sheet">
+        <div>
+            <div class="chart">
+                <i class="fas fa-chart-line"></i>
+                <p>We lead the pack in delivering optimal service</p>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
