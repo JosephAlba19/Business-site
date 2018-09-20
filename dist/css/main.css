@@ -64,11 +64,18 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
+.logo {
+  position: relative;
+}
+.logo a {
+  font-size: 34px;
+  padding: 12px 14px;
+}
 
 .search-area {
   display: inline-block;
   position: relative;
-  left: 875px;
+  left: 745px;
   padding: 12px 14px;
   width: 35%;
   margin: auto;
@@ -119,11 +126,10 @@ input:hover {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  border-bottom: #14001F solid 3px;
+  border-bottom: #14001F solid 63px;
   transition: margin-left 0.5s;
   padding: 20px;
   overflow: hidden;
-  /* width: 100%; */
 }
 
 #showcase h1 {
@@ -164,10 +170,13 @@ input:hover {
   margin: 0 auto;
   padding: 10px;
   flex-direction: row;
+  -webkit-box-shadow: 0 8px 6px -6px  #14001f;
+  -moz-box-shadow: 0 8px 6px -6px  #14001f;
+  box-shadow: 0 8px 6px -6px  #14001f;
 }
 
 .box .boxes .chart {
-  font-size: 80px;
+  font-size: 100px;
   
 }
 
