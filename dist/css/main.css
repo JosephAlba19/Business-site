@@ -145,16 +145,40 @@ input:hover {
 
 #stat-sheet {
   min-height: 500px;
+  max-width: 100%;
 }
 
-.chart {
-  /* font-size: 32px; */
-  width: 33%;
-  color: black;
+.box {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  color: #14001F;
 }
 
-.chart i {
-  font-size: 40px;
+ .boxes {
+  height: 350px;
+  width: 300px;
+  background: #e6e6e6;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.box .boxes .chart {
+  font-size: 80px;
+  
+}
+
+.box .boxes i {
+  position: relative;
+  top: 70px;
+}
+
+.box .boxes p {
+  position: relative;
+  top: 70px;
 }
 
 @media(max-width:568px) {
