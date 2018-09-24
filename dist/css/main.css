@@ -176,9 +176,19 @@ input:hover {
   box-shadow: 0 8px 6px -6px  #14001f;
 }
 
-.box .boxes .chart {
+.chart-1 {
   font-size: 100px;
-  
+  color: green;
+}
+
+.chart-2 {
+  font-size: 100px;
+  color: lightskyblue;
+}
+
+.chart-3 {
+  font-size: 100px;
+  color: red;
 }
 
 .box .boxes i {
