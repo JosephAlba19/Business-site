@@ -152,6 +152,7 @@ input:hover {
 #stat-sheet {
   min-height: 500px;
   max-width: 100%;
+  padding: 30px 0 10px 0;
 }
 
 .box {
@@ -189,6 +190,41 @@ input:hover {
   position: relative;
   top: 70px;
 }
+
+.newsletter {
+  background: #14001F;
+  color: #fff;
+  /* display: block; */
+  /* padding: 12px; */
+}
+
+#info-blur {
+  min-height: 100%;
+  background: #e6e6e6;
+  padding: 30px;
+}
+
+.blur-bx {
+  background: #fff;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px 14px;
+  color: #14001f;
+  -webkit-box-shadow: 0 8px 6px -6px  #14001f;
+  -moz-box-shadow: 0 8px 6px -6px  #14001f;
+  box-shadow: 0 8px 6px -6px  #14001f;
+}
+
+.blur-bx h1 {
+  font-size: 2.5em;
+}
+.blur-bx p {
+  font-size: 19px;
+}
+
+/* Media queries  */
 
 @media(max-width:568px) {
   .navbar-nav {
